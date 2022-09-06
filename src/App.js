@@ -74,8 +74,6 @@ const App = () => {
       const { data } = await AdsApi.getAds()
 
       setAds(data)
-
-      console.log(getColumns(ads));
     }
 
     fetchData()
